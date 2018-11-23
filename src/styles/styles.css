@@ -1,6 +1,10 @@
 body {
-    background-color: #E4E4E4;
     margin: none;
+    background:
+        radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+        radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #E4E4E4;
+    background-size:75px 100px;
 }
 
 h1 {
@@ -36,6 +40,7 @@ h3 {
     height: 50%;
     top: 15%;
     left: 15%;
+    border-radius: 6px;
 }
 
 .main-border {

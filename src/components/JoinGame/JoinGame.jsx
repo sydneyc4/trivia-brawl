@@ -6,4 +6,4 @@ function JoinGame() {
     );
 }
 
-export default Home;
+export default JoinGame;

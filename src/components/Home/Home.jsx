@@ -12,7 +12,7 @@ function Home() {
                 <Login />
             </div>
             <div className="inner-body">
-                <h1>trivia_brawl</h1>
+                <h1>trivia brawl</h1>
                 <div className="button-menu">
                     <CreateGame />
                     <JoinGame />
