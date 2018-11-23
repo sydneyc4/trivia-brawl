@@ -1,0 +1,185 @@
+body {
+    background-color: #E4E4E4;
+    margin: none;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 40px;
+    margin-top: 130px;
+}
+
+h3 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E67E7E;
+}
+
+.inner-body {
+    background-color: #F2F2F2;
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 15%;
+    left: 15%;
+}
+
+.main-border {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #EFB84D;
+}
+    
+.button-menu {
+    text-align: center;
+}
+
+.button-bar {
+    text-align: center;
+    margin: 30px;
+}
+    
+.button {
+    width: 400px;
+    height: 55px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 45px;
+    color: #5E5E5E;
+    border: none;
+    box-shadow: 3px 3px #E4E4E4;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+.primary {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+}
+    
+.button:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    cursor: pointer;
+}
+    
+.first-button {
+    background-color: #C8E6D2;
+}
+    
+.first-button:focus {
+    outline: 0;
+    background-color: #A5D6B5;
+}
+    
+.second-button {
+    background-color: #EFB84D;
+}
+    
+.second-button:focus {
+    outline: 0;
+    background-color: #EBA51E;
+}
+
+.third-button {
+    background-color: #DEE777
+}
+
+.third-button:focus {
+    outline: 0;
+    background-color: #D3Df4C
+}
+    
+.login {
+    text-align: right;
+    margin-right: 20px;
+}
+    
+.login-button {
+    font-family: 'Cabin Sketch', cursive;
+    color: #E67E7E;
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+    margin-top: 15px;
+}
+    
+.login-button:hover {
+    font-size: 60px;
+    cursor: pointer;
+}
+    
+.login-button:focus {
+    outline: 0;
+    color: #de5353;
+}
+
+.main-input {
+    text-align: center;
+}
+
+.input-field {
+    width: 400px;
+    line-height: 50px;
+    border-color: #5E5E5E;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: #5E5E5E;
+    padding: 2px 15px;
+}
+
+
+input[type="text"]:focus {
+    outline-color: #EBA51E;
+}
+
+textarea[type="text"] {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #5E5E5E;
+    padding: 2px 15px;
+}
+
+textarea[type="text"]:focus {
+    outline-color: #EBA51E;
+}
+
+textarea {
+    resize: none;
+}
+
+.textarea-field {
+    width: 400px;
+    line-height: 40px;
+    border-color: #5E5E5E;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #AAAAAA
+}
