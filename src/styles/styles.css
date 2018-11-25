@@ -110,12 +110,12 @@ h3 {
     background-color: #D3Df4C
 }
     
-.login {
+.account {
     text-align: right;
     margin-right: 20px;
 }
     
-.login-button {
+.account-button {
     font-family: 'Cabin Sketch', cursive;
     color: #E67E7E;
     font-size: 45px;
@@ -124,12 +124,12 @@ h3 {
     margin-top: 15px;
 }
     
-.login-button:hover {
+.account-button:hover {
     font-size: 60px;
     cursor: pointer;
 }
     
-.login-button:focus {
+.account-button:focus {
     outline: 0;
     color: #de5353;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function SignUp() {
     return (
-        <button className="login-button">sign up</button>
+        <button className="account-button">sign up</button>
     );
 }
 

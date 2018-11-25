@@ -8,7 +8,7 @@ import Login from '../Login/Login';
 function Home() {
     return (
         <div className="home">
-            <div className="login">
+            <div className="account">
                 <Login />
             </div>
             <div className="inner-body">
